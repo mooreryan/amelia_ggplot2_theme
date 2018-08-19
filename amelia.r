@@ -1,5 +1,4 @@
-amelia.theme <- function(border = 0.5) {
-    border <- border
+amelia.theme <- function(border.size = 0.5, ...) {
     theme_bw() +
         theme(
             ## Remove the box around the chart
@@ -13,10 +12,13 @@ amelia.theme <- function(border = 0.5) {
             axis.line = element_line(color = "black"),
 
             ## Adjust border (top, right, bottom, left)
-            plot.margin = margin(t = border,
-                                 r = border,
-                                 b = border,
-                                 l = border,
-                                 unit = "cm")
+            plot.margin = margin(t = border.size,
+                                 r = border.size,
+                                 b = border.size,
+                                 l = border.size,
+                                 unit = "cm"),
+
+            ## The rest of the args
+            ...
         )
 }
