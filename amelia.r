@@ -1,3 +1,4 @@
+#' @export
 amelia.theme <- function(border.size = 0.5, ...) {
     theme_bw() +
         theme(
