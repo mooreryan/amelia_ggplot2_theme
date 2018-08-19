@@ -1,4 +1,4 @@
-# Ameila's ggplot2 theme
+# Amelia's ggplot2 theme
 
 A snazzy defualt theme for `ggplot2`.
 
@@ -12,6 +12,8 @@ install_github("mooreryan/amelia_ggplot2_theme")
 ## Example
 
 ```R
+library(ggplot2)
+
 ggplot(data) + amelia.theme() + geom_polygon(aes(blah blah blah))
 ```
 

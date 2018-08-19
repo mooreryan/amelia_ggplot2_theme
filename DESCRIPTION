@@ -1,0 +1,18 @@
+Package: amelia_theme
+Version: 0.0.1
+Date: 2018-08-17
+Title: Amelia's ggplot2 theme
+Description: Amelia's snazzy theme.
+Author: Ryan Moore <moorer@udel.edu>
+Maintainer: Ryan Moore <moorer@udel.edu>
+Depends:
+    R (>= 3.4)
+Imports:
+    ggplot2
+License: MIT
+URL: https://github.com/mooreryan/amelia_ggplot2_theme
+BugReports: https://github.com/mooreryan/amelia_ggplot2_theme/issues
+Encoding: UTF-8
+ByteCompile: true
+LazyData: true
+RoxygenNote: 6.1.0
