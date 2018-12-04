@@ -13,6 +13,7 @@ install_github("mooreryan/amelia_ggplot2_theme")
 
 ```R
 library(ggplot2)
+library(amelia.theme)
 
 ggplot(data) + amelia.theme() + geom_polygon(aes(blah blah blah))
 ```
